@@ -1,0 +1,120 @@
+.weather {
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #2f4680, #500ae4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.search-bar input {
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: #626262;
+    background: #ebfffc;
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: 300px; /* Adjust width as needed */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.search-bar input:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar img {
+    height: 40px;
+    width: 40px;
+    padding: 11px; /* Adjust padding to ensure the icon fits well */
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar img:hover {
+    transform: scale(1.1);
+    background: #d9fffc;
+}
+
+.weather-icon {
+    width: 150px;
+    margin: 30px 0;
+}
+
+.temperature {
+    color: #fff;
+    font-size: 80px;
+    line-height: 1;
+}
+
+.location {
+    color: #fff;
+    font-size: 40px;
+}
+
+.weather-data {
+    width: 100%; /* Ensure it takes the full width */
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Add gap between columns */
+}
+
+.weather-data .col {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+}
+
+.weather-data .col span {
+    display: block;
+    font-size: 15px;
+}
+
+.weather-data .col img {
+    width: 26px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #3b5998; /* Matching the blue color provided */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    display: inline-block;
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .social-icons {
+    display: inline-block;
+  }
+  
+  .social-icons a {
+    margin-left: 10px; /* Adjust spacing between icons */
+  }
+
